@@ -68,6 +68,30 @@ h3{font-size:17.5px;margin:26px 0 8px;font-weight:700}
 .card a{font-weight:700;text-decoration:none}
 .card a:hover{text-decoration:underline}
 .note{background:#fffaf0;border-left:3px solid var(--gold);padding:14px 17px;border-radius:0 8px 8px 0;margin:20px 0}
+.tier-wrap{overflow-x:auto;margin:14px 0}
+table.tiers{width:100%;border-collapse:collapse;min-width:560px;font-size:15px}
+table.tiers th{text-align:left;font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+  color:#5b6572;border-bottom:2px solid #0f2a4a;padding:0 10px 7px 0}
+table.tiers td{padding:11px 10px 11px 0;border-bottom:1px solid #e3e7ec;vertical-align:top}
+table.tiers td.t-name{font-weight:700;white-space:nowrap}
+table.tiers td.t-price{font-weight:800;color:#b3202c;white-space:nowrap}
+table.tiers td.t-avail{color:#5b6572;font-size:13.5px;white-space:nowrap}
+.sform{margin:16px 0 0;max-width:640px}
+.sf-row{margin-bottom:13px;display:flex;flex-direction:column}
+.sf-row label{font-size:14px;font-weight:600;margin-bottom:5px}
+.sf-row input,.sf-row select,.sf-row textarea{font:inherit;font-size:16px;padding:11px 12px;
+  border:1px solid #c8cfd8;border-radius:7px;background:#fff;color:#12161c;width:100%}
+.sf-row input:focus,.sf-row select:focus,.sf-row textarea:focus{outline:2px solid #0f2a4a;
+  outline-offset:1px;border-color:#0f2a4a}
+.sf-two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.sf-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#sf-submit{margin-top:4px;border:0;cursor:pointer;font-size:16px}
+#sf-submit:disabled{opacity:.55;cursor:default}
+.sf-status{min-height:1.4em;margin:11px 0 0;font-size:15px;font-weight:600}
+.sf-status.ok{color:#2f7d5b}
+.sf-status.err{color:#b3202c}
+.sf-fine{font-size:13.5px;color:#5b6572;margin-top:9px}
+@media(max-width:620px){.sf-two{grid-template-columns:1fr}}
 .tbd{background:#fff8e6;border:1px dashed #d9b23a;padding:12px 15px;border-radius:7px;font-size:14px;
      color:#6b5410;margin:14px 0}
 table{width:100%;border-collapse:collapse;margin:16px 0}
